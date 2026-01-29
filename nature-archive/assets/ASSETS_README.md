@@ -1,33 +1,18 @@
 # Assets Folder
 
-This folder contains images and other static assets for the Nature Archive app.
+You need to add the following images for the app to work:
 
 ## Required Images
 
-You need to add the following images for the app to work properly:
-
-### App Icons (Required)
 - `icon.png` - 1024x1024px, app icon
-- `adaptive-icon.png` - 1024x1024px, Android adaptive icon foreground
-- `splash.png` - 1284x2778px, splash screen image
+- `adaptive-icon.png` - 1024x1024px, Android adaptive icon
+- `splash.png` - 1284x2778px, splash screen
 - `favicon.png` - 48x48px, web favicon
 
-### Recommended Design
-- Use the forest green color (#2E7D32) as primary
-- Include a leaf or nature-related symbol
-- Keep designs simple and recognizable
+## Quick Setup
 
-### Creating Placeholder Icons
+For development, create simple placeholder images:
+- Use any image editor to create solid green (#2E7D32) squares
+- Or use https://placeholder.pics to generate them
 
-For development, you can use these tools:
-- [Expo Icon Builder](https://buildicon.netlify.app/)
-- [App Icon Generator](https://appicon.co/)
-- Or simply create solid green squares as placeholders
-
-### Example icon.png (placeholder)
-
-Create a 1024x1024 PNG with:
-- Background: #2E7D32 (forest green)
-- Simple leaf icon in white center
-
-For now, the app will show default Expo icons until you add custom ones.
+The app will work without these, but you'll see warnings.

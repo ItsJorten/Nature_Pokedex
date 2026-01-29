@@ -12,7 +12,9 @@
       "@services/*": ["src/services/*"],
       "@theme/*": ["src/theme/*"],
       "@types/*": ["src/types/*"]
-    }
+    },
+    "module": "esnext",
+    "moduleResolution": "bundler"
   },
   "include": [
     "**/*.ts",

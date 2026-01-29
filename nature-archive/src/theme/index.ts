@@ -7,7 +7,6 @@
  */
 
 // Color palette inspired by nature
-// Primary green represents growth, nature, and the outdoors
 export const colors = {
   // Primary colors - main brand colors
   primary: {
@@ -61,7 +60,6 @@ export const colors = {
 };
 
 // Spacing scale (in pixels)
-// Using a consistent scale makes layouts feel harmonious
 export const spacing = {
   xs: 4,
   sm: 8,
@@ -77,12 +75,11 @@ export const borderRadius = {
   md: 8,
   lg: 16,
   xl: 24,
-  full: 9999, // For circular elements
+  full: 9999,
 };
 
 // Typography configuration
 export const typography = {
-  // Font sizes
   size: {
     xs: 12,
     sm: 14,
@@ -92,16 +89,12 @@ export const typography = {
     xxl: 32,
     hero: 40,
   },
-
-  // Font weights
   weight: {
     regular: '400' as const,
     medium: '500' as const,
     semibold: '600' as const,
     bold: '700' as const,
   },
-
-  // Line heights (multipliers)
   lineHeight: {
     tight: 1.2,
     normal: 1.5,
@@ -134,7 +127,6 @@ export const shadows = {
   },
 };
 
-// Export a combined theme object for convenience
 const theme = {
   colors,
   spacing,
